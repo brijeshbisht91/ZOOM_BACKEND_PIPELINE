@@ -4,7 +4,7 @@ import com.rivigo.zoom.utils.GitUtils
 import baremetal.jenkins.utils.DeploymentUtils
 
 pipeline {
-    // do you care about jenkins agent?
+    // do you care about  local jenkins agent?
     agent none
     // tools
     tools { gradle "gradle-5.2" }
