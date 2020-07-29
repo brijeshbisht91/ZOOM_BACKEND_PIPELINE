@@ -7,7 +7,7 @@ pipeline {
     // do you care about  local jenkins agent?
     agent none
     // tools
-    tools { gradle "gradle-5.2" }
+    tools { gradle "gradle-1.36" }
     // global configurations
     options {
         disableResume()
